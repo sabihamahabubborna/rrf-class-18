@@ -1,0 +1,112 @@
+/* Base css */
+body{
+    background-color: 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+}
+body{
+	font-family: 'open Sans', sans-serif;
+}
+a:hover{text-decoration: none;}
+.section-padding{
+	padding: 88px 0;
+}
+.section-bg-1{
+    background-image: url(../img/1.jpg);
+}
+.single-service-box-bg-1{
+    background-image: url(../img/2.jpg);
+}
+.single-service-box-bg-2{
+    background-image: url(../img/3.jpg);
+}
+.single-service-box-bg-3{
+    background-image: url(../img/4.jpg);
+}
+.single-service-box-bg-4{
+    background-image: url(../img/5.jpg);
+}
+.single-service-box-bg-5{
+    background-image: url(../img/6.jpg);
+}
+.single-service-box-bg-6{
+    background-image: url(../img/7.jpg);
+}
+.single-service-box-bg-7{
+    background-image: url(../img/8.jpg);
+}
+.single-service-box-bg-8{
+    background-image: url(../img/9.jpg);
+}
+.section-padding {
+    position: relative;
+    z-index: 2;
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+}
+
+.section-overlay:after, .single-service-box:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background: #ffce46;
+    opacity: .7;
+}
+.single-service-box {
+    display: table;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+text-align: center;
+background-size: 190%;
+background-position: center;
+background-color: #333;
+transition:.3s;
+
+
+}
+
+
+.service-box-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.service-box-wrapper h2 {
+    color: #fff;
+}
+
+.single-service-box:after {background: #002732;}
+
+
+
+.single-service-box:hover {
+    background-size: 250%;
+}
+
+.single-service-box:hover:after {
+    opacity: 0.3;
+}
